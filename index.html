@@ -1,39 +1,11 @@
-<!-- 
-The A11Y Project är ett community-drivet initiativ som strävar efter att göra digital tillgänglighet enklare, 
-mer begriplig och lättare att implementera för alla.
-
-Läs lite om projektet:
-https://www.a11yproject.com/about/
-
-
-Tillgänglighet är en viktig del av webbutveckling. Det handlar om att göra webbplatser och appar tillgängliga för alla, inklusive personer med funktionsnedsättningar. 
-Det finns många sätt att göra en webbplats mer tillgänglig, till exempel att använda semantisk HTML, skapa enkel navigering och använda alternativa texter för bilder.
- ____________________________________________________________________________________________________
- 1. Läs noga genom koden och identifiera alla tillgänglighetsproblem.
- 
- 2. Testa kör lighthouse i devtools(Google chrome) och se vilka problem som finns.
-
- 3. Skriv en kort sammanfattning av vad som är fel och hur det kan åtgärdas.
-
- 4. Skriv om koden så att den följer tillgänglighetsstandarder.
-
- 5. Skriv en kort sammanfattning av vad du har ändrat och varför.
-
- 6. Testa din nya kod med andra verktyg för tillgänglighet.
-
- 7. Skriv en kort reflektion över hur det var att göra uppgiften. Vad var svårt? Vad lärde du dig?
- ____________________________________________________________________________________________________
-
--->
-
 <!DOCTYPE html>
 <!-- Vad händer när man kommenterar bort språket? -->
 <html lang="en">
 
 <head>
-    <meta name="description" content="A11y News - Latest news on the world, sports and entertainment!">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A11y News - Latest news on the world, sports and entertainment!">
     <link rel="stylesheet" href="style.css">
     <!-- Endast en `<title>` används; flera kan orsaka oväntat beteende och påverka SEO samt tillgänglighet negativt. -->
     <title>A11y News</title>
@@ -41,7 +13,7 @@ Det finns många sätt att göra en webbplats mer tillgänglig, till exempel att
 
 <body>
     <!-- Navigeringsmeny med dubblett-ID:n, inkonsekvent tabindex, och brutna länkar till en 404-sida. -->
-    <nav class="navigation" role="navigation">
+    <nav class="navigation">
         <ul>
             <li><a href="/" tabindex="0">Home</a></li>
             <li><a href="/world" tabindex="0">World</a></li>
@@ -91,12 +63,13 @@ Det finns många sätt att göra en webbplats mer tillgänglig, till exempel att
 
         <!-- Allt för stor bild. För att motverka prestanda problem, ha koll på storleken på bilden -->
         <article class="article">
-            <p class="headline">See a picture of a flower load quickly!</p>
-            <img src="http://upload.wikimedia.org/wikipedia/commons/3/3f/JPEG_example_flower.jpg" alt="Image of a flower" width="200" height="auto">
+            <h2 class="headline">See a picture of a flower load quickly!</h2>
+            <img src="http://upload.wikimedia.org/wikipedia/commons/3/3f/JPEG_example_flower.jpg" alt="Image of a flower" width="200">
         </article>
 
         <!-- Videor kräver mycket prestanda, kan vi ändra eller ta bort för att åstakomma bättre resultat -->
         <article class="article">
+            <h2>A demonstration from W3Schools about accessibility on the World Wide Web.</h2>
             <p><a href="https://www.w3schools.com/html/mov_bbb.mp4">See the W3Schoole demo-video here! (extern länk)</a></p>
         </article>
     </main>

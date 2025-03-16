@@ -108,3 +108,21 @@
     -------------------
 
     Ta bort att scriptfilen körs, det är bara nonsens däri ändå!
+
+
+        Ändringar:
+    -------------------
+
+    HTML: 
+        - Rättade till punkterna som nämnts ovan
+        - La till bilderna som saknades i images
+        - Ändrade den integrerade videon till en extern länk istället för att inte få varning
+        om tredjeparts cookies
+
+    CSS:
+        - Rättade till punkterna som nämnts ovan
+        - Gjorde många justeringar på padding, marging etc för att få sidan att se någorlunda OK ut
+
+    JS
+        - Eftersom all kod som fanns i js-filen var nonsens så valde jag helt enkelt att inte
+        ladda in den från sidan.
