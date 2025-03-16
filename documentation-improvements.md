@@ -13,7 +13,7 @@
     7. Skriv en kort reflektion över hur det var att göra uppgiften. Vad var svårt? Vad lärde du dig?
 
 
-
+        HTML:
     -------------------
 
     Rad 29: Inget språk 
@@ -21,9 +21,83 @@
 
 
     Rad 39: Title-dubblett
-            - Skärmläsaren läser upp två titlar
+            - Skärmläsaren läser upp två titlar och orsakar förvirring
 
     Rad 44: Dålig navigering
             - Väldigt svårnavigerat för personer med hjälpmedel
+            - Span har id 1 på alla klasser vilket blir ogiltigt
+            - Tabindex felaktigt
+
+    Rad 53: Svåråtkomligt inputfält
+            - Inputfält saknar <label> vilket förvirrar Skärmläsaren
+
+    Rad 59: Dold text och klickbar div
+            - Den dolda texten har för låg kontrast
+
+    Rad 64: H1 taggar
+            - Två h1-taggar förvirrar skärmläsaren
+
+    Rad 68: Marquee 
+            - Rullande text är distraherande
+
+    Rad 76: Klickbar artikel
+            - En klickbar artikel som inte gör någonting är onödigt och 
+            skapar inget värde men är kanske inget direkt tillgänglighetsproblem 
+
+    Rad 80: Bilder
+            - Bilderna saknar alt-texten vilket gör dom otillgängliga för 
+            skärmläsaren
+            - Bilderna syns inte heller eftersom de inte existerar på sidan
+
+    Rad 90: Stor bild
+            - Laddar långsamt för användare med långsamma uppkopplingar
+
+    Rad 96: Video
+            - Laddar långsamt för användare med långsamma datorer/uppkopplingar
+
+    Rad 103: Irriterande annons
+            - Störande innehåll som inte kan pausas vilket gör sidan otillgänglig för personer med nedsatt kognitiv förmåga
+
+
+
+        CSS:
+    -------------------
+
+    Rad 6: Font
+            - Svårläst font försvårar för användare med nedsatt syn och möjligen även dyslexi
+
+    Rad 11: Färger och textstil
+            - Dålig kontrast på bakgrund och text
+            - Svår läsbarhet som kan förvirra personer med nedsatt kognitiv förmåga
+
+    Rad 28: Färger och fokusindikator
+            - Dålig kontrast mellan bakgrund och text
+            - Vilseleder användaren att knappen inte är tillgänglig med cursor: not-allowed
+
+    Rad 39: Nästan osynlig spegelvänd text
+            - Förvirrar användaren och gör det otydligt för personer med nedsatt synd och/eller nedsatt
+            kognitiv förmåga
+
+    Rad 64: Storlek på font
+            - Överdriven storlek kan göra det svårläst för användaren
+            - Låg vikt minskar kontrast och läsbarhet
+            - Dålig kontrast på textfärg mot bakgrund
+ 
+    Rad 120: Input-fält med låg kontrast
+            - Låg kontrast mellan textfärg och bakgrund 
+
+    Rad 130: Input-knapp
+            - Låg kontrast mellan textfärg och bakgrund
+            - Otydlig markör som saknar fokusindikation
+            - Roterad text minskar läsbarheten och kan förvirra användaren
+
+    Rad 150: Distraherande annons
+            - Blinkande gradient är distraherande
+
+    Rad 174: Krympande text vid hover
+            - Hover som orsakar att texten krymper gör texten oläslig
+
+    Rad 190: Roterande bild
+            - Roterande innehåll distraherar användaren
 
 
