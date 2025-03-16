@@ -16,6 +16,8 @@
         HTML:
     -------------------
 
+    Rad 1: Saknar META-description!
+
     Rad 29: Inget språk 
             - Skärmläsaren vet inte vilket språk den ska tolka
 
@@ -54,6 +56,7 @@
 
     Rad 96: Video
             - Laddar långsamt för användare med långsamma datorer/uppkopplingar
+            - En gif som inte använder HTTPS
 
     Rad 103: Irriterande annons
             - Störande innehåll som inte kan pausas vilket gör sidan otillgänglig för personer med nedsatt kognitiv förmåga
@@ -101,3 +104,7 @@
             - Roterande innehåll distraherar användaren
 
 
+        JavaScript:
+    -------------------
+
+    Ta bort att scriptfilen körs, det är bara nonsens däri ändå!
