@@ -126,3 +126,15 @@
     JS
         - Eftersom all kod som fanns i js-filen var nonsens så valde jag helt enkelt att inte
         ladda in den från sidan.
+
+
+
+        Reflektion:
+     -------------------
+    I denna uppgiften var det väldigt svårt att komma igång att leta felaktigheter eftersom det var så mycket som stal ens fokus.
+    Började med att lusläsa koden för att sedan gå igenom DOMen med hjälp av inspektören i webbläsaren, det resulterade i att bland
+    annat att all Javascript var tvungen att inaktiveras för att ens kunna fortsätta jobba utan att utveckla Epilepsi. Men det gick,
+    och jag tror att resultatet talar för det även om det inte blev någon direkt altartavla!
+
+    Verktyget W3 HTML-Validator tycker jag dessutom fångar upp en hel del som Lighthouse missar eftersom den fokuserar mer på själva 
+    koden än användarupplevelsen. 
